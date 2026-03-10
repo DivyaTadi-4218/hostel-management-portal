@@ -74,30 +74,23 @@ Server
 
 📂 Project Structure
 
- Main project files include:
+The project consists of several PHP files that handle different functionalities of the Hostel Management Portal.
 
- hostel-management-portal/
-
- 
-* ├── index.php               # Home page
-* ├── register.php            # Student registration
-├── login.php               # Student login
-├── logout.php              # Logout functionality
-├── dashboard.php           # Student dashboard
-├── complaint.php           # Submit complaints
-├── view-complaints.php     # View submitted complaints
-├── profile.php             # User profile management
-├── services.php            # Hostel services page
-├── contact.php             # Contact page
-├── fee-structure.php       # Hostel fee information
-│
-├── admin-login.php         # Admin login page
-├── admin-dashboard.php     # Admin dashboard
-├── all-complaints.php      # Admin view complaints
-│
-├── config.php              # Database configuration
-└── README.md               # Project documentation
-
+* index.php – This is the home page of the portal where users can access basic information about the hostel system.
+* register.php – This page allows new students to create an account by registering with their details.
+* login.php – This page is used by students to log into the system using their credentials.
+* logout.php – This file handles the logout functionality and securely logs the user out of the system.
+* dashboard.php – After logging in, students can access their dashboard where they can view different options and information related to hostel services.
+* profile.php – This page allows students to view and update their personal profile information.
+* complaint.php – Students can submit hostel-related complaints through this page.
+* view-complaints.php – Students can view the complaints they have submitted and track their status.
+* all-complaints.php – This page allows the administrator to view all complaints submitted by students.
+* admin-login.php – This page is used by the administrator to log into the admin panel.
+* admin-dashboard.php – The admin dashboard allows the administrator to manage complaints and monitor hostel activities.
+* services.php – This page provides information about the services available in the hostel.
+* fee-structure.php – This page displays the hostel fee details and payment information.
+* contact.php – This page allows users to contact the hostel administration for support or queries.
+* config.php – This file contains the database connection configuration used by the system.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
