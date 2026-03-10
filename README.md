@@ -77,9 +77,10 @@ Server
  Main project files include:
 
  hostel-management-portal/
-│
-├── index.php               # Home page
-├── register.php            # Student registration
+
+ 
+* ├── index.php               # Home page
+* ├── register.php            # Student registration
 ├── login.php               # Student login
 ├── logout.php              # Logout functionality
 ├── dashboard.php           # Student dashboard
